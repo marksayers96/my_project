@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Hello World!</title>
+     <!--link to Jquery needs to be before the Bootstrap link-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    
+    <!--link to my local css file-->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Custom styles for this template go here -->
+    
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar">
+ <!--navbar starts here-->
+ <!-- Collect the nav links, forms, and other content for toggling -->
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid anchor" id="process">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse"
+        data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="projectName navbar-brand">
+          <a href="#">Mark Sayers</a>
+        </div> <!--end projectName -->
+      </div> <!--end navbar-header --> 
+      <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#faq">Learn More</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      </div> <!-- nav -->
+    </div> <!-- end nav container-->
+    </nav><!--/navbar-->
+  
+    <div class="container-fluid" id="home">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/webdocument1.jpg" alt="webdocument1">
+      <div class="carousel-caption">
+        <h3>Example Headline</h3>
+        <p>Example Description</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/webdocument2.jpg" alt="webdocument2">
+      <div class="carousel-caption">
+         <h3>Example Headline</h3>
+        <p>Example Description</p>
+      </div>
+    </div>
+     <div class="item">
+      <img src="img/webdocument3.jpg" alt="webdocument3">
+      <div class="carousel-caption">
+         <h3>Example Headline</h3>
+        <p>Example Description</p>
+      </div>
+    </div>
+    ...
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  </div>
+    </div><!--/container-->
+      
+  <div class="container">
+      <!-- Example row of columns -->
+    <div class="row">
+      <div class="col-md-4">
+          <h2>Portfolio Concept</h2>
+          <p>My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that it's eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. </p>
+          <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Tooltip on top">View details &raquo;</button>
+      </div><!-- /col -->
+      <div class="col-md-4">
+          <h2>Project Goals</h2>
+          <p>Brand Identity, Print & Web: bringing it all together. A unified identity, online and offline, is an absolute must for a reputable brand. These are the things I do best.</p>
+          <p>Nothing is more rewarding for me than making best delivered end project for clients with meaningful missions.</p>
+          <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Tooltip on top">View details &raquo;</button>
+       </div><!-- /col -->
+        <div class="col-md-4">
+          <h2>Course Goals</h2>
+          <p>Understand fundamentals of programming, Be aware of the important topics and principles of software development, Have the ability to write a computer program to solve specified problems, Be able to use coding environment to create, debug and run simple programs. I want to change careers and become a junior web developer for a local startup.</p>
+          <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Tooltip on top">View details &raquo;</button>
+        </div><!-- /col -->
+      </div><!-- /row -->
+
+      <hr>
+  </div> <!-- /container -->
+
+    <!--This is my responsiveBootstrap grid with four small images-->
+    <div class="container" id="work">
+      <div class="row">
+        <div class = "col-md-3 col-xs-6"><img src="img/240.png" class="img-responsive"></div>
+        <div class = "col-md-3 col-xs-6"><img src="img/240.png" class="img-responsive"></div>
+        <div class = "col-md-3 col-xs-6"><img src="img/240.png" class="img-responsive"></div>
+        <div class = "col-md-3 col-xs-6"><img src="img/240.png" class="img-responsive"></div><!--/col-screensize-number-->
+      </div><!--/row work-->
+  </div><!--/container-->
+
+  <!--about page html-->
+  <div class="container" id="about">
+    <div class="header">
+        <h1>Mark Sayers, Webmaster.</h1>
+      </div><!--/header-->
+      <div class="col-md-4">
+        <div class="image">
+          <img src="img/newlaptop.jpg">
+        </div><!--/image-->
+      </div><!--col-md-4-->
+      <div class="col-md-4">
+        <div class="intro column">
+          <h2>Introduction</h2>
+          <p>Hello, my name is <!--tooltip--> <a href="#" title="More information" id="item1">Mark Sayers</a><!--/tooltip-->. I'm a Web Designer, UI Developer and Online Business Consultant based in Oklahoma City, OK. I also have skills in branding, photography, photo re-touching, and print design. If you have a project or creative need that I can help with, please get in touch.</p>
+        </div><!--/intro-->
+      </div><!--col-md-4-->
+      <div class="col-md-4">
+        <div class="skills column">
+          <h3>My Skills</h3>
+            <ul id="skill-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Bootstrap</li>
+              <li>jQuery</li>
+              <li>Javascript</li>
+              <li>Ruby on Rails</li>
+            </ul>
+        </div><!--/skills-->
+      </div><!--/col-md-4-->
+      </div><!--/container-->
+      <div class="container">
+        <div class="main-text">
+          <h3>My Story</h3>
+          <p>I am the ideas man, coming up with the concepts, and how things should look and feel is where my passion lies. Striving to push my abilities as a designer, I love exploring new areas of the industry, expanding my skill set so that I can take on any job with a multi-disciplined approach.</p>
+ 
+          <p>One of my greatest assets is taking any problem and working out the best and most effective ways to approach it. I believe this is one of the reasons I have such a diverse skill set, using different techniques to get the job done.</p>  
+        </div><!--main-text-->    
+  </div><!--/about page container-->
+
+  <!--work page html-->
+  <!--/work page container-->
+
+  <!--learn more page html-->
+  <div class="container" id="faq">
+     <div cass="row">
+        <h2 class="learn-more">Learn More</h2>
+      <!-- Small modal button -->
+      <div class="modal-button">
+        <button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">My Resume</button>
+      <!-- Small modal -->
+  <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" data-backdrop="static"  data-keyboard="false">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-header" id="myModalLabel">My Resume!!</h4>
+      </div><!--/modal-header-->
+
+      <div class="modal-body">
+      <embed id="modalembed" src="resume-example.pdf">
+      </div><!--/modal-body-->
+
+    </div><!--/modal-content-->
+  </div><!--/modal-dialog modal-sm-->
+  </div><!--modal fade bs-example-modal-sm-->   
+      </div><!--modal-bottun-->
+     </div><!--/row--> 
+    </div><!--/container-->
+    <div class="container">
+      <div class="query">
+        <div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordian" href="#collapseOne"><span class="glyphicon glyphicon-question-sign"></span>
+          What is your design process?
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in">
+      <div class="panel-body">
+        Varies from project to project but can meet in-person, facetime, skype, or whatever works best for you. I like to have alot of communication with my client. Prototype and wireframe till we are all happy. The finishing product starts with lots of communication to make sure we are all on the same page. END RESULTS HAPPY CUSTOMERS!!!
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordian" href="#collapseTwo"><span class="glyphicon glyphicon-question-sign"></span>
+          Who are your clients?
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse">
+      <div class="panel-body">
+        Anyone from Mom and Pop, Small Business, to Big Corperations..
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordian" href="#collapseThree"><span class="glyphicon glyphicon-question-sign"></span>
+          What is your average project turnaround?
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse">
+      <div class="panel-body">
+        Really depends on the type of application and the complexity, but normally 2 to 6 weeks. I will work with you to finish the project on your timeline!!
+      </div>
+    </div>
+  </div>
+</div>
+          
+      </div><!--/query-->  
+  </div><!--/learn more page container-->
+
+  <!--embedded video-->
+  <!-- 16:9 aspect ratio -->
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fd/DesignThinking.ogv/DesignThinking.ogv.480p.webm"></iframe>
+</div>
+
+   <!--end embedded video-->
+
+  <!--contact page html-->
+  <div class="container-fluid" id="contact">
+    <div class="content">
+      <div class="header">
+        <h1>Contact Me Today!</h1>
+      </div><!--/header-->
+      <div class="hours column">
+        <h2>Business Hours</h2>
+          <p><span class="glyphicon glyphicon-time"></span> Monday-Sunday: 8:00am- 8:00pm</p>
+      </div><!--/hours-->    
+    <div class="company-text">
+      <h3>Mark Sayers</h3>
+        <p><span class="glyphicon glyphicon-map-marker"></span>13331 N. MacArthur Blvd.</p>
+        <p><span class="glyphicon glyphicon-phone"></span> Phone# 405-206-9535</p>
+        <p><span class="glyphicon glyphicon-envelope"></span> Email: marksayers96@gmail.com</p>
+    </div><!--/company-text-->
+    <div class="form-text">
+      <p><span class="glyphicon glyphicon-inbox"></span> Fill in the form below or call us at 405-206-9535 for website designing services. We look forward to hearing from you!</p>
+
+
+      <!--form-->
+      <form>
+        <div class="form-group">
+          <label>Your name</label>
+          <input type="text" placeholder="Enter name" id="name" class="form-control">
+        </div><!--/end form-group-->
+        <div class="form-group">
+          <label>*Email address</label>
+          <input type="email" placeholder="Enter email" id="email" class="form-control" required=”required”>
+        </div><!--/end form-group--> 
+        <div class="form-group">
+          <label>*Your message below</label>  
+          <textarea placeholder="Your message" id="message" class="form-control message-box" style="resize:none" cols="40" rows="5" required=”required”
+          minlength=10></textarea>
+          <button type="submit" id="button" class="btn btn-default">Submit</button>
+        </div><!--/end form-group-->
+      </form><!--/end of form-->
+    </div><!--/form text-->
+    </div><!--/content-->  
+  </div><!--/contact page container-->
+  <!--move close tag div for content and container back up to form nest that comes before this one if I decide to use it instead of this trial form-->
+
+  <footer>
+  <div class="copyright"> 
+    <p>&copy 2016, Authored by Mark Sayers</p>
+    
+    <!--Twitter button-->
+    <a href="https://twitter.com/marksayers96" class="twitter-follow-button" data-show-count="false">Follow @marksayers96</a>
+  </div>
+  <!--/end of Twitter button-->
+
+  <!-- facebook share button code -->
+  <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="box_count" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Share</a></div>
+  <!--facebook button-->
+</footer>
+  
+
+    <!-- ============================= -->
+    <!-- All your JavaScript comes now -->
+    <!-- ============================= -->
+    <!-- Can place script tags with JavaScript files here -->
+    
+    <!--link to my local js file-->
+    <script src="js/scripts.js"></script>
+    
+
+
+  </body>
+</html>

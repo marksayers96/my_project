@@ -1,0 +1,256 @@
+/*index style*/
+
+body {                           
+  background-color: #fffeea;
+  color: #34495e;
+  position: relative;
+}
+
+.nav {
+  text-transform: uppercase;
+}
+
+.projectName {
+  text-transform: uppercase;
+}
+
+.projectName a {
+  color: white;
+}
+
+.learn-more {
+  text-align: left;
+  float: left;
+}
+
+.modal-button {
+  float: right;
+  padding: 15px;
+}
+
+.carousel {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.carousel-caption {
+	color: black;
+  padding: 10px ;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/*end of index style*/
+
+/*work style*/
+
+#work {
+  margin-top: 150px;
+}
+
+ /*end of work style*/
+
+/*about styles*/
+
+.image {
+  display: inline-block;
+  float: left;
+  padding-right: 30px;
+  padding-top: 60px;
+}
+
+.intro {
+  display: inline-block;
+  float: left;
+  width: 80%;
+  margin-top: 40px;
+  margin-left: 100px;
+  padding: 0 20px;
+}
+
+.skills {
+  display: inline-block;
+  float:right;
+  padding-top: 15px;
+  padding-right: 50px;
+  margin-top: 70px;
+  margin-right: 80px;
+}
+
+.main-text {
+  clear: both;
+}
+
+.main-text {
+  padding-top: 10px;
+}
+
+.header {
+  margin-bottom: 50px;
+}
+
+#skill-list {
+  margin-left: 20px;
+}
+
+/*Typography for about page*/
+h1,
+h2,
+h3 {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+p,
+li {
+  font-family: Georgia, Palatino, Baskerville, serif;
+}
+
+.intro p {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  font-size: 1.25em;
+  font-weight: 100;
+  -webkit-margin-before: 0;
+}
+
+.skills h3 {
+  text-align: center;
+  text-transform: uppercase;     
+}
+
+.skills {
+  background-color: #794044;
+  color: #fff; 
+}
+
+/*end of about style*/
+
+
+ /*learn more style*/
+
+h1 {
+  text-align: center;
+  font-family: Georgia, Palatino, Baskerville, serif;
+}
+
+.query {
+  margin-top: 20px;
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.learn-more {
+  text-align: left;
+  float: left;
+  margin-top: 80px;
+}
+
+.modal-button {
+  float: right;
+  margin-top: 80px;
+}
+
+#modalembed {
+  height: 500px;
+  width: 100%;
+  padding: 10px;
+}
+
+/*end learn more style*/
+
+/*contact style*/
+/*Positioning and Sizing*/
+
+* { box-sizing: border-box; }
+
+.content {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.header h1 {
+	text-align: center;
+	margin: 80px;
+}
+
+.hours {
+	float: right;
+}
+
+.form-text {
+	text-align: center;
+	margin-top: 70px;
+}
+
+.form-group {
+	text-align: center;
+	margin-top: 90px;
+}
+
+#contact{
+  background-image: url("../img/landscape.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  padding:100px;
+  padding-top: 50px;
+}
+
+.form-control {
+  width: 50%;
+  margin-left: 220px;
+}
+
+label {
+  margin-right: 530px;
+}
+
+form
+button {
+  margin-right: 585px;
+  margin-top: 20px;
+}
+
+/*Typography*/
+
+/* selector:pseudo-class {
+    property: value;
+} use this CSS rule for pseudo-class*/
+
+.glyphicon:hover {
+  color: #ff0;
+  text-decoration: none;
+  transition: color 600ms;
+  -webkit-transition: color 600ms;
+}
+
+/*End of contact style*/
+
+/*footer styles*/
+
+footer {
+  display: inline;
+}
+
+.twitter-follow-button {
+  float: right;
+  position: relative;
+}
+
+.fb-share-button {
+  float: right;
+  margin-right: 20px;
+}
+
+/*end footer style*/
+
+
+
+
+
